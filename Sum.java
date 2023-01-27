@@ -1,13 +1,9 @@
-import java.util.Scanner;
 public class Sum{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter A");
-        int a= sc.nextInt();
-        System.out.println("Enter B");
-        int b= sc.nextInt();
-        int sum=a+b;
-        System.out.println("Sum = "+sum);
+	public static void main(String[] args){
+		int a=Integer.parseInt(args[0]);
+		int b=Integer.parseInt(args[1]);
+		System.out.println("sum="+(a+b));
+	}
 
-    }
+	
 }
